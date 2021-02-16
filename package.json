@@ -1,0 +1,11 @@
+{
+  "name": "test-repo-graphql-tag",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alves-omedetaro/test-repo-graphql-tag.git",
+  "author": "marcelo alves <alves@libra.co.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-tag": "2.11.0"
+  }
+}
