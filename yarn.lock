@@ -5,12 +5,14 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"graphql-tag@npm:2.11.0":
-  version: 2.11.0
-  resolution: "graphql-tag@npm:2.11.0"
+"graphql-tag@npm:2.12.1":
+  version: 2.12.1
+  resolution: "graphql-tag@npm:2.12.1"
+  dependencies:
+    tslib: ^1.14.1
   peerDependencies:
     graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
-  checksum: 400355590180cce2f39df5c599cad20ee982bb7e4a63ad70857aa0fe2e82e3ef6233a4db2b80a03e6dfa84bf3ecb13dc2947936eaf31753c94876e22be45ea78
+  checksum: 24598a32799130942d6a86346794798fd3b4533fbc9c2f76af3546ea099778803387ead881c8099db76c6607d3064c970b3e59607d057554d14f82627a536d22
   languageName: node
   linkType: hard
 
@@ -18,6 +20,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "test-repo-graphql-tag@workspace:."
   dependencies:
-    graphql-tag: 2.11.0
+    graphql-tag: 2.12.1
   languageName: unknown
   linkType: soft
+
+"tslib@npm:^1.14.1":
+  version: 1.14.1
+  resolution: "tslib@npm:1.14.1"
+  checksum: f44fe7f216946b17d3e3074df3746372703cf24e9127b4c045511456e8e4bf25515fb0a1bb3937676cc305651c5d4fcb6377b0588a4c6a957e748c4c28905d17
+  languageName: node
+  linkType: hard

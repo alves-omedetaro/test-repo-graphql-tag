@@ -6,6 +6,6 @@
   "author": "marcelo alves <alves@libra.co.jp>",
   "license": "MIT",
   "dependencies": {
-    "graphql-tag": "2.11.0"
+    "graphql-tag": "2.12.1"
   }
 }
